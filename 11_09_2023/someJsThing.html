@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <script>
+        function f2()
+        {
+            do 
+            {
+                r = Number(prompt("Podaj rok urodzenia: "));
+                l = Number(prompt("Podaj ulubiona liczbe: "));
+                if(isNaN(r) || isNaN(l))
+                {
+                   alert("Halo halo, to nie liczba"); 
+                }
+            } while(r <= 1920 || r >= 2023 || l == 69 || l == 420 || l == 2137 || isNaN(r) || isNaN(l))
+            f1(r, l);
+        }
+        function f1(x, y)
+        {
+            const box = '<p>Ulubioną liczbą osoby urodzonej w ' + r + ' roku jest ' + l + '</p>';
+            document.body.innerHTML = box;
+        }
+        
+        // f2();
+
+        setInterval(f2, 1000);
+    </script>
+</body>
+</html>
