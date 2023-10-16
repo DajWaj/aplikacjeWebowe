@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: rgb(53, 53, 53);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    color: white;
+    font-size: 2em;
+}
+p {
+    color: rgb(86, 219, 109);
+    text-shadow: rgb(86, 219, 109) 1px 0 6px;
+    font-size: 1.2em;
+}
