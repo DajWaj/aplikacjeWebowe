@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link rel="stylesheet" href="styleIndex.css">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styleKontakt.css">
 </head>
 <body>
-    <h1>Kontakt</h1>
-    <form action="/kontakt" method="post">
-
-    </form>
+    <header>
+        <a href="http://127.0.0.1:3000/">Strona główna</a>
+        <a href="http://127.0.0.1:3000/kontakt">Kontakt</a>
+    </header>
+    <main>
+        <h1>Kontakt</h1>
+        <form action="/kontakt" method="post" id="form">
+            <label for="">Imię:</label><input name="imie" type="text"><br>
+            <label for="">Email:</label><input name="email" type="text"><br>
+            <label for="">Siemano/Nara</label>
+            <select>
+                <option>
+                    Siemano
+                </option>
+                <option>
+                    Nara
+                </option>
+            </select><br>
+            <label for="">Wiadomość:</label>
+            <textarea name="textarea"></textarea><br>
+            <input type="submit" value="Wyślij">
+        </form>
+    </main>
+    <script type="application/javascript" src="uga.js"></script>
 </body>
 </html>

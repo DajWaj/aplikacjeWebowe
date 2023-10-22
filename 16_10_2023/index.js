@@ -36,9 +36,9 @@ const server = http.createServer(async (req, res) => {
         res.write(css);
         res.end();
     }
-    else if (url==='/uga') {
+    else if (url==='/uga.js') {
         res.statusCode = 200;
-        res.setHeader('Content-Type', 'text/js');
+        res.setHeader('Content-Type', 'application/javascript');
         const js = await fs.readFile('./public/js/uga.js');
         res.write(js);
         res.end();
