@@ -1,0 +1,21 @@
+{
+  "students": {
+    "link": "localhost:3000/students",
+    "description": "Zwraca liste minimum 10 obiektow reprezentujacych studentow."
+  },
+
+  "student_id": {
+    "link": "localhost:3000/students/:id",
+    "description": "Zwraca studenta z okreslonym identyfikatorem lub zwraca kod 404, jesli student o podanym identyfikatorze nie istnieje."
+  },
+
+  "subjects": {
+    "link": "localhost:3000/subjects",
+    "description": "Zwraca liste minimum 10 przedmiotow szkolnych w formacie obiektow."
+  },
+
+  "subjects_id": {
+    "link": "localhost:3000/subjects/:id",
+    "description": "Zwraca przedmiot z okreslonym identyfikatorem lub zwraca kod 404, jesli przedmiot o podanym identyfikatorze nie istnieje."
+  }
+}
